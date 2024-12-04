@@ -11,6 +11,7 @@ function diaDeLaSetmana() {
     // Trenca el string per obtenir el dia, mes i any
     const parts = dataInput.split('/');
     const dia = parseInt(parts[0], 10);
+    6;
     const mes = parseInt(parts[1], 10) - 1; // Els mesos van de 0 a 11
     const any = parseInt(parts[2], 10);
     // Crea un objecte Date
